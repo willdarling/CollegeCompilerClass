@@ -1,0 +1,39 @@
+CMSC 22100 Spring 2018 HW1
+
+This archive contains five files:
+
+- sources.cm, a standard Makefile-like file for this group of files,
+
+- check.sig, the Check module signature,
+
+- check.sml, the Check module implementation,
+
+- hw1.sml, a batch of programming exercises, and
+
+- this file.
+
+The Check code is already written.
+
+What *you* should do this week is fill in the unimplemented functions
+in the HW1 module.
+
+Please note all unimplemented functions are stubbed out with raised
+exceptions. This is The Right Way to deal with yet-to-be-written
+code. Never write stub implementations that return imposter values
+like 0 or false; these can be the sources of positively insidious
+errors later in the development process.
+
+As you're working on the HW1 exercises, you can periodically compile
+your work by typing
+
+- CM.make "sources.cm";
+
+from within the SML REPL. As long as the unimplemented functions are
+just exception-raisers, as they are given to you, you can compile the
+partially-done code, with useful feedback, at any time.
+
+(CM stands for "compilation manager.")
+
+Remember that installing and/or using "rlwrap" with the SML REPL will
+make your SML use much more pleasant.
+

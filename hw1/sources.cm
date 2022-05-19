@@ -1,0 +1,9 @@
+Group
+  signature CHECK	
+  structure Check
+  structure HW1
+is
+  $/basis.cm
+  check.sig
+  check.sml
+  hw1.sml
